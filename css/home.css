@@ -1,8 +1,8 @@
 /* Home */
 header {
 	min-height: 100vh;
-	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55) 70%, rgba(66, 134, 244, 0.45) 99%),
-	url("../img/minecraft.jpg") no-repeat center center;
+	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55) 100%, rgba(66, 134, 244, 0.45) 100%),
+	url("../img/minecraft.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -10,13 +10,23 @@ header {
 	display: inline-block;
 	background: rgba(0,0,0,0.4);
 	padding: 3px;
-	font-size: 0.7em;
+	font-size: 12px;
 	color: white;
 	text-align: center;
+    letter-spacing: 5px;
+    line-height: 1.3em;
+}
+
+.bottomtext {
+	padding: 3px;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+    letter-spacing: 5px;
+    line-height: 1.3em;
 }
 
 .playercount span {
-	color: cyan;
 }
 
 /* Main Content */

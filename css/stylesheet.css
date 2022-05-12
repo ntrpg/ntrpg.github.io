@@ -1,26 +1,29 @@
 /* Global */
+@font-face {
+  font-family: 'Minecraft';
+  src: url(Minecraft.ttf) format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
 
 body {
-	font-family: Helvetica;
+	font-family: "Minecraft", Helvetica;
 	margin: 0;
-	font-family: Lato;
 	color: #222;
 	box-sizing: border-box;
 }
 
 p {
 	margin: 0;
-	font-size: 1.2em;
+	font-size: 12px;
 	font-weight: 300;
-	line-height: 1.5em;
+	line-height: 12px;
 }
 
 h1 {
-	font-size: 1.8em;
+	font-size: 24px;
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 24px;
 }
 
 h1,
